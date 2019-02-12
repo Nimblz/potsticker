@@ -1,0 +1,7 @@
+# Potsticker: a modern object browser
+
+## What is Potsticker?
+Potsticker is a modern object browser. Potsticker uses LPGhatguy's [dumpling](https://github.com/LPGhatguy/dumpling) to generate up-to-date user-authored api docs. Potsticker is powered by the [Rodux](https://github.com/Roblox/rodux) state management library and the [Roact](https://github.com/Roblox/roact) view management library to ensure stability and performance.
+
+## Why Potsticker?
+When working in roblox, it's nice to have quick reference to classes and their members. The Object Browser was once a vital utility for quick reference. As of late the Object Browser has fallen out of favor, being succeeded by the Api Reference section of the Dev Hub. This is not an ideal solution, however, when you just want to know how a specific method is spelled, or what the arguments to a datatype are. The Dev Hub necesitates opening a web browser, waiting for a page to load, then finding the information you want on the page. The Dev Hub does have a search feature, but it seems more likely to take you to a redirect page than the actual api member, increasing wait time further as you have to wait for two pages to load. In comes Potsticker; Potsticker is a modern PluginWidget object browser that attempts to capture the quick, minimal feeling of the original.
