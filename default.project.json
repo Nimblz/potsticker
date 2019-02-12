@@ -2,12 +2,29 @@
   "name": "potsticker",
   "tree": {
     "$className": "DataModel",
-    "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
-      "Source": {
-        "$path": "src"
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "potsticker": {
+        "$className": "Folder",
+        "plugin": {
+          "$path": "src"
+        },
+        "lib": {
+          "$className": "Folder",
+          "Roact": {
+            "$path": "roact/lib"
+          },
+          "Rodux": {
+            "$path": "rodux/lib"
+          },
+          "Roact-Rodux": {
+            "$path": "roact-rodux/lib"
+          }
+        }
       }
     },
+
     "HttpService": {
       "$className": "HttpService",
       "$properties": {
