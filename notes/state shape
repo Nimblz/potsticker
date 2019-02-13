@@ -6,10 +6,18 @@
     selectedClass -- string that is the current class/enum selected
     selectedMethod -- string that is current method selected
 
-    bookmarks = { -- array of class/method bookmarks in order set
-        {"Instance",nil}
-        {"Instance","Name"}
-        {"HumanoidStateType","Physics"}
-        {"Humanoid","TakeDamage"}
+    bookmarks = {
+        allBookmarks = { -- array of class/method bookmarks in order set
+            {"Instance",nil}
+            {"Instance","Name"}
+            {"HumanoidStateType","Physics"}
+            {"Humanoid","TakeDamage"}
+        },
+        byPair = {
+            "Instance-nil" = 1
+            "Instance-Name" = 2
+            "HumanoidStateType-Physics" = 3
+            "Humanoid-TakeDamage" = 4
+        }
     }
 }
