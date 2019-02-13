@@ -8,7 +8,9 @@ local _cachedDump = nil
 
 -- returns the offline dump source
 local function getOfflineDump()
-    return script:WaitForChild("OfflineDump").Source
+    local offlineDump = script:FindFirstChild("Offline Dump")
+    assert(offlineDump, "Offline dump not found, try updating the plugin.")
+    return offlineDump.Source
 end
 
 -- retrieves dump from DUMP_URL
