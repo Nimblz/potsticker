@@ -1,5 +1,6 @@
 local HttpService = game:GetService("HttpService")
 
+-- TODO: change to an actual endpoint.
 local DUMP_URL = "https://gist.githubusercontent.com/Nimblz/cb92c17a2c57f751f558da96f660a9a1/raw/ffad00a785d89a8d32335102898d812bc0e0615c/megadump.json"
 
 local Dumpling = {}
