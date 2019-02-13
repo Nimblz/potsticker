@@ -6,7 +6,7 @@
     selectedClass -- string that is the current class/enum selected
     selectedMethod -- string that is current method selected
 
-    bookmark = { -- array of class/method bookmarks in order set
+    bookmarks = { -- array of class/method bookmarks in order set
         {"Instance",nil}
         {"Instance","Name"}
         {"HumanoidStateType","Physics"}
