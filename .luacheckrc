@@ -29,6 +29,9 @@ end
 
 stds.roblox = {
     globals = {
+        plugin = {
+            other_fields = true,
+        },
         script = {
             other_fields = true,
             fields = {
@@ -674,7 +677,6 @@ stds.testez = {
 
 stds.plugin = {
 	read_globals = {
-		"plugin",
 		"DebuggerManager",
 	}
 }
